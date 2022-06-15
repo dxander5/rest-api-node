@@ -1,0 +1,29 @@
+@api = http://localhost:3000/api/movies
+
+### Getting data from the API
+GET  {{api}}
+
+### 
+POST {{api}}
+Content-Type: application/json
+
+{
+    "title": "Creada",
+    "director": "Bean",
+    "year": 1910,
+    "rating": 2.9
+}
+
+###
+DELETE {{api}}/10
+
+###
+PUT {{api}}/20
+Content-Type: application/json
+
+{
+    "title": "TTT",
+    "director": "DDD",
+    "year": 1,
+    "rating": 10
+}
